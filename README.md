@@ -146,10 +146,11 @@ graph TB
 ## 📊 Model Performance
 
 ### Dataset Statistics
-- **Source**: MIMIC-IV Clinical Database
-- **Patients**: 50,000+ ICU admissions
+- **Source**: MIMIC-IV Clinical Database (PhysioNet)
+- **Patients**: 431,241 ICU admissions
 - **Features**: 9 core clinical variables + engineered features
 - **Target**: Length of stay (days)
+- **Training Split**: 80/20 train-test split (~345,000 train / ~86,000 test)
 
 ### Model Metrics
 
