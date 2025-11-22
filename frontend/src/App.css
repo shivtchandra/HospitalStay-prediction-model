@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+body {
+  background: #000;
+  color: #fff;
+}
+/* small improvements */
+img { display: block; }
+.reveal { will-change: opacity, transform; }
+
+/* If you want a subtle backdrop to placeholders while loading */
+.lazy-placeholder {
+  background: linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+}
